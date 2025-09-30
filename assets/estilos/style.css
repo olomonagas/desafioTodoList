@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+}
+
+.encabezado {
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;
+    align-items: space-between; */
+    border: 1px solid white;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+}
+
+#resumentarea {
+    width: 30%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#listatarea {
+    width: 70%;
+    border: 1px solid white;
+    padding: 10px;
+}
+

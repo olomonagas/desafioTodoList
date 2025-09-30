@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas Pendientes</title>
+    <link rel="stylesheet" href="./assets/estilos/style.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h2>Todo List</h2>
+        <span>(Tareas Pendientes)</span>
+    </header>
+    <section id="nueva_tarea">
+        <h3>Agrega las tareas que necesites</h3>
+        <div>
+            <span>Nueva Tarea:</span>
+            <input type="text" id="nuevatarea" placeholder="Agrega una nueva tarea">
+            <button id="agregartarea">Agregar</button>
+        </div>
+    </section>
+    <main id="areatarea">
+        <div id="resumentarea">
+            <h3>Contador de tareas</h3>
+            <p id="total">Total:</p>
+            <p id="realizadas">Realizadas:</p>
+        </div>
+        <div id="listatarea">
+                   <h4> Lista de Tareas </h4>
+                <ul id="tarea">
+                    <!-- Aqui van las tareas -->
+                </ul>
+            
+        </div>
+
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
